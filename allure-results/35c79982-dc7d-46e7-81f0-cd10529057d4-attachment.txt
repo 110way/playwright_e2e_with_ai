@@ -1,0 +1,4 @@
+Error checking warning alert: TimeoutError: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('#alert .alert-danger, div.alert-danger, div.alert.alert-danger, .alert-dismissible').first() to be visible
+

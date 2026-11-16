@@ -1,0 +1,4 @@
+[Step 1] Product created with generated ID: 21
+[Step 2] Product 21 updated successfully.
+[Step 3] Product 21 deleted successfully.
+✅ ✔️ Product CRUD workflow completed successfully!

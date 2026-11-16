@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="25.805246">
+<testsuite name="db\customer-multi-layer-validation.spec.ts" timestamp="2026-11-08T15:42:18.118Z" hostname="chromium" tests="1" failures="0" skipped="0" time="20.811" errors="0">
+<testcase name="Customer Multi-Layer Validation (Frontend UI + Admin + MySQL DB) @master @regression @db @end-to-end" classname="db\customer-multi-layer-validation.spec.ts" time="20.811">
+<system-out>
+<![CDATA[✅ ✔️ Completed multi-layer customer verification successfully!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

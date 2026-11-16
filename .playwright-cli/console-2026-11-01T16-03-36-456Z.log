@@ -1,0 +1,11 @@
+[    2506ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php:0
+[    4294ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php:0
+[    4622ms] [LOG] ce.Event @ http://localhost/opencart/upload/admin/view/javascript/common.js:145
+[    4622ms] [LOG] JSHandle@node @ http://localhost/opencart/upload/admin/view/javascript/common.js:146
+[    4622ms] [LOG] action http://localhost/opencart/upload/admin/index.php?route=common/login.login&login_token=914bff6bc590e06921741164e0dd0ac4 @ http://localhost/opencart/upload/admin/view/javascript/common.js:147
+[    4623ms] [LOG] button [object HTMLButtonElement] @ http://localhost/opencart/upload/admin/view/javascript/common.js:148
+[    4623ms] [LOG] method post @ http://localhost/opencart/upload/admin/view/javascript/common.js:149
+[    4623ms] [LOG] enctype application/x-www-form-urlencoded @ http://localhost/opencart/upload/admin/view/javascript/common.js:150
+[    4625ms] [LOG] username=admin&password=admin @ http://localhost/opencart/upload/admin/view/javascript/common.js:151
+[    5548ms] [LOG] {redirect: http://localhost/opencart/upload/admin/index.php?r…board&user_token=1e8ef310cf99662a76dc29f424ff65b3} @ http://localhost/opencart/upload/admin/view/javascript/common.js:173
+[    5549ms] [LOG] success @ http://localhost/opencart/upload/admin/view/javascript/common.js:174

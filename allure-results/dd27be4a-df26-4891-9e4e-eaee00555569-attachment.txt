@@ -1,0 +1,38 @@
+Price: 602
+Login: { email: 'pavanol@xyz.com', password: 'test@123' }
+Product: { productName: 'MacBook', productQuantity: '1', totalPrice: '$602.00' }
+User payload: {
+  email: 'Domenick3@gmail.com',
+  username: 'Stanley84',
+  password: 'NILTCsKJX8',
+  name: { firstname: 'Isaiah', lastname: 'Medhurst' },
+  address: {
+    city: 'Alvistown',
+    street: 'Rollin Crescent',
+    number: 621,
+    zipcode: '61425',
+    geolocation: { lat: '-35.1892', long: '177.196' }
+  },
+  phone: '(623) 794-2527 x288'
+}
+Cart payload: {
+  userId: 1,
+  date: '2026-10-27',
+  products: [ { productId: 605, quantity: 929 } ]
+}
+CSV data: [
+  {
+    testName: 'Valid login',
+    email: 'pavanol@xyz.com',
+    password: 'test@123',
+    expected: 'success'
+  },
+  {
+    testName: 'Invalid login',
+    email: 'abcxyz@xyz.com',
+    password: 'abcxyx',
+    expected: 'failure'
+  }
+]
+JSON data: 5
+Excel data: 3

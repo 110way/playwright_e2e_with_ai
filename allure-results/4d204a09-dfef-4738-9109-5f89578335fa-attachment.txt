@@ -1,0 +1,1 @@
+✅ Authentication failure verified with expected error message.

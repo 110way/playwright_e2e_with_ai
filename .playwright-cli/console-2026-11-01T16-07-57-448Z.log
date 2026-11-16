@@ -1,0 +1,13 @@
+[     437ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php:0
+[    2343ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php:0
+[    2545ms] [LOG] ce.Event @ http://localhost/opencart/upload/admin/view/javascript/common.js:145
+[    2545ms] [LOG] JSHandle@node @ http://localhost/opencart/upload/admin/view/javascript/common.js:146
+[    2546ms] [LOG] action http://localhost/opencart/upload/admin/index.php?route=common/login.login&login_token=bc63551e289b061d152992ae4189b3f8 @ http://localhost/opencart/upload/admin/view/javascript/common.js:147
+[    2546ms] [LOG] button [object HTMLButtonElement] @ http://localhost/opencart/upload/admin/view/javascript/common.js:148
+[    2546ms] [LOG] method post @ http://localhost/opencart/upload/admin/view/javascript/common.js:149
+[    2546ms] [LOG] enctype application/x-www-form-urlencoded @ http://localhost/opencart/upload/admin/view/javascript/common.js:150
+[    2549ms] [LOG] username=admin&password=admin @ http://localhost/opencart/upload/admin/view/javascript/common.js:151
+[    3373ms] [LOG] {redirect: http://localhost/opencart/upload/admin/index.php?r…board&user_token=165741c7e9c0f98f42b2d47e18bb81cc} @ http://localhost/opencart/upload/admin/view/javascript/common.js:173
+[    3374ms] [LOG] success @ http://localhost/opencart/upload/admin/view/javascript/common.js:174
+[    7775ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php?route=customer/customer.form&user_token=165741c7e9c0f98f42b2d47e18bb81cc&customer_id=18&filter_email=pavanol%40xyz.com:0
+[    7775ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php?route=customer/customer.form&user_token=165741c7e9c0f98f42b2d47e18bb81cc&customer_id=18&filter_email=pavanol%40xyz.com:0

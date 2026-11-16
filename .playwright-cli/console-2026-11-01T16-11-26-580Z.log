@@ -1,0 +1,13 @@
+[     433ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php:0
+[    2177ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php:0
+[    2543ms] [LOG] ce.Event @ http://localhost/opencart/upload/admin/view/javascript/common.js:145
+[    2544ms] [LOG] JSHandle@node @ http://localhost/opencart/upload/admin/view/javascript/common.js:146
+[    2544ms] [LOG] action http://localhost/opencart/upload/admin/index.php?route=common/login.login&login_token=b6f0f88fc1ac482c92cd2ec1d421a1d3 @ http://localhost/opencart/upload/admin/view/javascript/common.js:147
+[    2544ms] [LOG] button [object HTMLButtonElement] @ http://localhost/opencart/upload/admin/view/javascript/common.js:148
+[    2544ms] [LOG] method post @ http://localhost/opencart/upload/admin/view/javascript/common.js:149
+[    2545ms] [LOG] enctype application/x-www-form-urlencoded @ http://localhost/opencart/upload/admin/view/javascript/common.js:150
+[    2548ms] [LOG] username=admin&password=admin @ http://localhost/opencart/upload/admin/view/javascript/common.js:151
+[    3262ms] [LOG] {redirect: http://localhost/opencart/upload/admin/index.php?r…board&user_token=1a07e2303bd98ba9e3483b065f71efa5} @ http://localhost/opencart/upload/admin/view/javascript/common.js:173
+[    3262ms] [LOG] success @ http://localhost/opencart/upload/admin/view/javascript/common.js:174
+[    4664ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php?route=customer/customer.form&user_token=1a07e2303bd98ba9e3483b065f71efa5&customer_id=18:0
+[    4665ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/opencart/upload/admin/index.php?route=customer/customer.form&user_token=1a07e2303bd98ba9e3483b065f71efa5&customer_id=18:0

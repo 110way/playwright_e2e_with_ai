@@ -1,0 +1,6 @@
+Error checking MyAccountPage: TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#content h2:has-text("My Account"), h2:has-text("My Account")').first() to be visible
+    - waiting for "http://localhost/opencart/upload/index.php?route=account/account&language=en-gb&customer_token=6706640048bacea7954d8f7afe" navigation to finish...
+    - navigated to "http://localhost/opencart/upload/index.php?route=account/account&language=en-gb&customer_token=6706640048bacea7954d8f7afe"
+

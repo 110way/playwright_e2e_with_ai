@@ -1,0 +1,1 @@
+✅ User ID 1 conforms to user JSON schema.

@@ -1,0 +1,4 @@
+Error checking AccountSuccessPage: TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#content h1:has-text("Your Account Has Been Created!")').first() to be visible
+

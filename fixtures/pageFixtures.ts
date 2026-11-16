@@ -1,0 +1,70 @@
+import { test as base, expect } from '@playwright/test';
+import dotenv from 'dotenv';
+import { HomePage } from '../pages/HomePage';
+import { RegisterPage } from '../pages/RegisterPage';
+import { AccountSuccessPage } from '../pages/AccountSuccessPage';
+import { LoginPage } from '../pages/LoginPage';
+import { MyAccountPage } from '../pages/MyAccountPage';
+import { LogoutPage } from '../pages/LogoutPage';
+import { SearchResultsPage } from '../pages/SearchResultsPage';
+import { ProductDetailsPage } from '../pages/ProductDetailsPage';
+import { ShoppingCartPage } from '../pages/ShoppingCartPage';
+import { AdminLoginPage } from '../pages/AdminLoginPage';
+import { AdminCustomersPage } from '../pages/AdminCustomersPage';
+
+dotenv.config();
+
+const APP_URL = process.env.WEB_APP_URL || 'http://localhost/opencart/upload/';
+
+type PageFixtures = {
+    homePage: HomePage;
+    registerPage: RegisterPage;
+    accountSuccessPage: AccountSuccessPage;
+    loginPage: LoginPage;
+    myAccountPage: MyAccountPage;
+    logoutPage: LogoutPage;
+    searchResultsPage: SearchResultsPage;
+    productDetailsPage: ProductDetailsPage;
+    shoppingCartPage: ShoppingCartPage;
+    adminLoginPage: AdminLoginPage;
+    adminCustomersPage: AdminCustomersPage;
+};
+
+export const test = base.extend<PageFixtures>({
+    homePage: async ({ page }, use) => {
+        await page.goto(APP_URL);
+        await use(new HomePage(page));
+    },
+    registerPage: async ({ page }, use) => {
+        await use(new RegisterPage(page));
+    },
+    accountSuccessPage: async ({ page }, use) => {
+        await use(new AccountSuccessPage(page));
+    },
+    loginPage: async ({ page }, use) => {
+        await use(new LoginPage(page));
+    },
+    myAccountPage: async ({ page }, use) => {
+        await use(new MyAccountPage(page));
+    },
+    logoutPage: async ({ page }, use) => {
+        await use(new LogoutPage(page));
+    },
+    searchResultsPage: async ({ page }, use) => {
+        await use(new SearchResultsPage(page));
+    },
+    productDetailsPage: async ({ page }, use) => {
+        await use(new ProductDetailsPage(page));
+    },
+    shoppingCartPage: async ({ page }, use) => {
+        await use(new ShoppingCartPage(page));
+    },
+    adminLoginPage: async ({ page }, use) => {
+        await use(new AdminLoginPage(page));
+    },
+    adminCustomersPage: async ({ page }, use) => {
+        await use(new AdminCustomersPage(page));
+    },
+});
+
+export { expect } from '@playwright/test';

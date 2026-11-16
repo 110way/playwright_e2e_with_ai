@@ -1,0 +1,5 @@
+Error checking MyAccountPage: TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#content h1:has-text("My Account"), #content h2:has-text("My Account"), h1:has-text("My Account"), h2:has-text("My Account")').first() to be visible
+
+✅ ✔️ Completed successfully!
